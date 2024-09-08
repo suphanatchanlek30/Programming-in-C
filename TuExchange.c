@@ -14,7 +14,7 @@ int main(void) {
     float total_dollar = rate * dollar;
 
     // เปลี่ยนจำนวนเงินให้เป็นหน่วย %
-    int remainingAmount = (int)(total_dollar * 100 + 0.5); // แปลงเป็นเซ็นต์
+    int remainingAmount = (int)(total_dollar * 100 + 0.5); // แปลงเป็นเซ็นต์ และทำให้เป็นจำนวนเต็มโดยใช้ int 
 
     // คำนวณเหรียญ 10
     coins_10 = remainingAmount / 1000; // 10 บาท = 1000 สตางค์
