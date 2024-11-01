@@ -41,7 +41,6 @@ int main(void) {
     
     printf("Negative coordinates: ");
     NegativeCoordinates(arr, N);
-    printf("\n");
     
     return 0;
 }
